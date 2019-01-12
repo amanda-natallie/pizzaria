@@ -1,0 +1,24 @@
+<?php
+	/*
+        $conn = 'mysql:host=127.0.0.1;dbname=nicnan';
+        
+        try{
+            $db = new PDO($conn, 'root', 'groovin');
+            $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+        */
+        
+        $conn = 'mysql:host=186.202.152.57;dbname=clebersonprime_gestion';
+        
+        try{
+            $db = new PDO($conn, 'clebe_gestion', 'gestion@*');
+            $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+        
+        
+       
+?>

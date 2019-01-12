@@ -1,0 +1,5 @@
+[11-Jan-2019 15:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/criativin/public_html/desenvolvimento/tres_irmaos/funcoes.php:594
+Stack trace:
+#0 /home/criativin/public_html/desenvolvimento/tres_irmaos/index.php(1): require()
+#1 {main}
+  thrown in /home/criativin/public_html/desenvolvimento/tres_irmaos/funcoes.php on line 594
